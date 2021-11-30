@@ -3,7 +3,6 @@ from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, login
 from django.contrib.auth import logout
 
-# password for superuser is T@sp23456
 # Create your views here.
 def index(request):
     print(request.user)
